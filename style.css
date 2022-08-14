@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap");
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 100%;
+    margin: 50px 0px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card {
+    width: 295px;
+    overflow: hidden;
+    border-radius: 25px;
+    border: 1px solid lavender;
+    margin: 10px;
+    box-shadow: 5px 5px 15px 5px rgba(230, 230, 250, 1);
+}
+
+.card__image {
+    position: relative;
+    height: 140px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.card__image>img {
+    max-width: 100%;
+    border-bottom-right-radius: 30px;
+    transform: rotate(10deg) translate(-15px, -55px);
+    position: absolute;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card__info {
+    text-align: center;
+    padding: 0px 30px 20px 30px;
+}
+
+.card__info h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card__info p {
+    font-size: 14px;
+    font-weight: 600;
+}  
+.card__info--price {
+    color: orangered;
+}
+.plate_quantity_outer {
+    font-size: 10px ;
+    color: grey;
+}
+.btn {
+    width: 100%;
+    display: block;
+    color: #fff;
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    background-color: #f9b02d;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.cart_info {
+    padding: 20px 30px;
+}
+.cart_info p{
+    display: flex;
+    justify-content: space-between;
+}
