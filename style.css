@@ -79,6 +79,7 @@ h2 {
     color: grey;
 }
 .btn {
+    cursor: pointer;
     width: 100%;
     display: block;
     color: #fff;
